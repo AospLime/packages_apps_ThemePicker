@@ -21,6 +21,7 @@ import static com.android.customization.model.ResourceConstants.OVERLAY_CATEGORY
 import static com.android.customization.model.ResourceConstants.OVERLAY_CATEGORY_ICON_LAUNCHER;
 import static com.android.customization.model.ResourceConstants.OVERLAY_CATEGORY_ICON_SETTINGS;
 import static com.android.customization.model.ResourceConstants.OVERLAY_CATEGORY_ICON_SYSUI;
+import static com.android.customization.model.ResourceConstants.OVERLAY_CATEGORY_PRIMARY;
 import static com.android.customization.model.ResourceConstants.OVERLAY_CATEGORY_SHAPE;
 import android.graphics.Point;
 import android.provider.Settings;
@@ -51,6 +52,7 @@ public class ThemeManager implements CustomizationManager<ThemeBundle> {
     private static final Set<String> THEME_CATEGORIES = new HashSet<>();
     static {
         THEME_CATEGORIES.add(OVERLAY_CATEGORY_COLOR);
+        THEME_CATEGORIES.add(OVERLAY_CATEGORY_PRIMARY);
         THEME_CATEGORIES.add(OVERLAY_CATEGORY_FONT);
         THEME_CATEGORIES.add(OVERLAY_CATEGORY_SHAPE);
         THEME_CATEGORIES.add(OVERLAY_CATEGORY_ICON_ANDROID);
