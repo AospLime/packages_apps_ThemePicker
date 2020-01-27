@@ -19,5 +19,5 @@
     <string name="preview_name_primary">Primary color</string>
     <string name="preview_name_color_new">Accent color</string>
     <string name="color_component_title_new">Choose accent color</string>
-    <string name="no_options_message">No valid primary colors available</string>
+    <string name="no_options_message">No valid primary colors available. \nTo select one, please, turn on dark theme on.</string>
 </resources>
